@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "bfebd8f27aaad8e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d670336ca6e29811",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2f64c20522cf652",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Лекия 1 SQL/Без названия.canvas",
+                "viewState": {
+                  "x": 437,
+                  "y": 6878.592797783933,
+                  "zoom": -3.7050435781512734
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Без названия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "569270046b9f7f51",
+    "type": "split",
+    "children": [
+      {
+        "id": "7687707bf3cdfe24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fec3b0e0b797a0a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "404d569b8b49891b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "4cce6f6dc26fc1a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9f4b51eb0c02cc2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f64e108d039f9bd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5e8025a8017809d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Лекия 1 SQL/Без названия.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Без названия"
+            }
+          },
+          {
+            "id": "7bfcf9382aaeb587",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Лекия 1 SQL/Без названия.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Без названия"
+            }
+          },
+          {
+            "id": "0ba7840d50aba4b3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "998bb8475c1588f7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "53d14c422c95090b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Лекия 1 SQL/Без названия.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Без названия"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "d2f64c20522cf652",
+  "lastOpenFiles": [
+    "Лекия 1 SQL/Pasted image 20260220175153.png",
+    "Лекия 1 SQL/Pasted image 20260220175131.png",
+    "Лекия 1 SQL/Pasted image 20260220175122.png",
+    "Лекия 1 SQL/Pasted image 20260220174353.png",
+    "Лекия 1 SQL/Pasted image 20260220174327.png",
+    "Лекия 1 SQL/Pasted image 20260220174022.png",
+    "Лекия 1 SQL/Pasted image 20260220173247.png",
+    "Лекия 1 SQL/Pasted image 20260220172708.png",
+    "Лекия 1 SQL/Pasted image 20260220172517.png",
+    "Лекия 1 SQL/Pasted image 20260220172442.png",
+    "Лекия 1 SQL/Pasted image 20260220172318.png",
+    "Лекия 1 SQL/Без названия.canvas"
+  ]
+}
