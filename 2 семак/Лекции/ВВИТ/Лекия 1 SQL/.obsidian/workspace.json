@@ -23,8 +23,26 @@
               "icon": "lucide-layout-dashboard",
               "title": "Без названия"
             }
+          },
+          {
+            "id": "6bddb013ab9cf0f5",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Без названия 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Без названия 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "687af322a7927bdb",
@@ -187,8 +204,10 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "62ac5ca489d95dae",
+  "active": "6bddb013ab9cf0f5",
   "lastOpenFiles": [
+    "Без названия 1.canvas",
+    "Без названия.canvas",
     "Pasted image 20260220175153.png",
     "Pasted image 20260220175131.png",
     "Pasted image 20260220175122.png",
@@ -198,9 +217,7 @@
     "Pasted image 20260220173247.png",
     "Pasted image 20260220172708.png",
     "Pasted image 20260220172318.png",
-    "Без названия.canvas",
     "Pasted image 20260220172517.png",
-    "Pasted image 20260220172442.png",
     "Добро пожаловать.md",
     "Без названия.md"
   ]
