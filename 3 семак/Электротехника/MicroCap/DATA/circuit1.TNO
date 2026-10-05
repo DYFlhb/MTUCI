@@ -1,0 +1,65 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Transient Analysis of circuit1                      ***
+***                           16.09.2026 15:37:36                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           5k
+Output Start Time (tstart) 0
+Maximum Time Step          1
+Number of Points           501
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             2.400   2             7.500n 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                   -2.400         7.500n
+Power DC Terms:
+PD                  18.000m       56.250p
+
+DC Pin Currents:
+Ir                  -7.500m        7.500m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   2.400 
+Power DC Terms:
+PG                 18.000m
+
+DC Pin Currents:
+ISource            -7.500m
+
+
