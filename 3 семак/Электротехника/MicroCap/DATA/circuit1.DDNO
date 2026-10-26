@@ -1,0 +1,47 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of circuit1                          ***
+***                           21.10.2026 19:51:17                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            12.000   2             8.001   3             2.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2      METER1.R
+V                    3.999         7.999         2.000m
+Power DC Terms:
+PD                   7.997        15.995         3.999m
+
+DC Pin Currents:
+Ir                   2.000         2.000         2.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1      METER1.V
+V                  12.000         0.000 
+Power DC Terms:
+PG                 23.996         0.000 
+
+DC Pin Currents:
+ISource            -2.000         2.000 
+
+

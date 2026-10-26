@@ -56,7 +56,7 @@ BarID=18349
 POS=-2,-2
 Docking=True
 MRUDockID=0
-MRUDock=-2,-2,198,1219
+MRUDock=-2,-2,198,829
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -65,7 +65,7 @@ BarID=18348
 POS=-2,-2
 Docking=True
 MRUDockID=0
-MRUDock=-2,-2,2562,75
+MRUDock=-2,-2,1682,75
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -74,7 +74,7 @@ BarID=14900
 POS=-2,-2
 Docking=True
 MRUDockID=0
-MRUDock=-2,-2,153,31
+MRUDock=0,0,155,33
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -83,7 +83,7 @@ BarID=14901
 POS=151,-2
 Docking=True
 MRUDockID=0
-MRUDock=151,-2,329,31
+MRUDock=151,0,329,33
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -92,7 +92,7 @@ BarID=14902
 POS=327,-2
 Docking=True
 MRUDockID=0
-MRUDock=327,-2,800,31
+MRUDock=327,0,800,33
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -101,7 +101,7 @@ BarID=14903
 POS=798,-2
 Docking=True
 MRUDockID=0
-MRUDock=798,-2,958,31
+MRUDock=798,0,958,33
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -110,7 +110,7 @@ BarID=14904
 POS=956,-2
 Docking=True
 MRUDockID=0
-MRUDock=956,-2,1042,31
+MRUDock=956,0,1042,33
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 
@@ -119,7 +119,7 @@ BarID=14905
 POS=1040,-2
 Docking=True
 MRUDockID=0
-MRUDock=1040,-2,1228,31
+MRUDock=1040,0,1228,33
 MRUFloatStyle=8196
 FloatPos=-2147483648,0
 

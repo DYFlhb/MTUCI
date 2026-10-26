@@ -44,7 +44,7 @@ CurveFit=-1,-1
 PreferencesDefault=-1,-1
 DigitalTrace=-1,-1,-1,-1
 DynamicACLimit=-1,-1
-DynamicDCLimit=-1,-1
+DynamicDCLimit=1006,580
 Elements=-1,-1
 FindInFiles=-1,-1
 FLTBode=-1,-1,-1,-1
@@ -55,17 +55,17 @@ FontColor=-1,-1
 FindModelParam=-1,-1
 G2DProp=956,442
 G3DProp=-1,-1
-GetAtt=1925,78
+GetAtt=875,240
 AttPLot=-1,-1,-1,-1
 Localize=-1,-1
 GotoPerf=-1,-1
 GotoXY=3198,816
-GridText=-1,-1,-1,-1
+GridText=824,367,1558,771
 GS=-1,-1
 StateVE=-1,-1,-1,-1
 LBRFind=-1,-1
 LBRCopy=-1,-1
-Limit=792,78
+Limit=328,242
 LimitProbe=-1,-1
 LimitLB=-1,-1,-1,-1
 LimitExpand=-1,-1
@@ -180,7 +180,7 @@ RP_FOR_ISOURCE=0
 METHOD=TRAP
 
 [Preferences]
-Main Window Placement=2,3, -1,-1, -1,-1, 5,1,1683,1001
+Main Window Placement=2,3, -1,-1, -1,-1, 2553,548,4231,1548
 Att Width=630
 PathView=Full
 ;General
@@ -207,7 +207,7 @@ SpliterSize=4
 Component Menu Height=0
 Quick Help=Yes
 ;Warnings
-Quit Warning=Yes
+Quit Warning=No
 File Warning=Yes
 Opamp Power Warning=Yes
 Add DC Path To Ground Warning=Yes
@@ -239,7 +239,7 @@ IC Warning=Yes
 ;Did You Know
 DYK_GridText=Yes
 DYK_Distortion=Yes
-DYK_ALTWire=Yes
+DYK_ALTWire=No
 DYK_Calculator=Yes
 DYK_MDL=Yes
 DYK_MDLAddedUserr=Yes
@@ -758,7 +758,7 @@ Search=Yes
 Favorites=Yes
 Model=Yes
 sizeHorz=200,200
-sizeVert=200,1221
+sizeVert=200,831
 sizeFloat=200,200
 BrowseSplitter=180
 SearchSplitter=180
@@ -778,7 +778,7 @@ Show=Yes
 ClearOnRun=Yes
 ClearOnEdit=Yes
 ShowHelp=Yes
-sizeHorz=2564,77
+sizeHorz=1684,77
 sizeVert=200,200
 sizeFloat=200,200
 
@@ -1718,14 +1718,23 @@ BITMAP_ROWS=32
 
 [Last Loaded Files]
 Max=30
+FILE_1=C:\Users\danya\Downloads\circuit1.cir
 
 [Current Files]
+File_0=C:\Users\danya\Downloads\circuit1.cir
+WP_0=2,3, -1,-1, -8,-31, 0,0,1457,780
+Front=C:\Users\danya\Downloads\circuit1.cir
 
 [Last Used Components]
 Max=10
 COMPONENT_1=Ground
 COMPONENT_2=Resistor
-COMPONENT_3=Battery
+COMPONENT_3=Sine Source
+COMPONENT_4=IofV
+COMPONENT_5=ISource
+COMPONENT_6=Animated SPDT Switch
+COMPONENT_7=Animated Meter
+COMPONENT_8=Battery
 
 [Calculator Defines]
 Text
@@ -1802,7 +1811,7 @@ Graph Group=1
 
 [Tip]
 Show=Yes
-Index=1
+Index=6
 
 [AttSettings]
 V.Pulse.Btn.1="Typical"
@@ -2046,7 +2055,7 @@ Data="<Root>data\"
 Library="<Root>library\"
 Picture="<Root>data\"
 Document="<Root>documents\"
-Last Data
+Last Data="H:\MTUCI\3 семак\Ёлектротехника\MicroCap\data\"
 Last Library
 Last Picture
 Last Document
