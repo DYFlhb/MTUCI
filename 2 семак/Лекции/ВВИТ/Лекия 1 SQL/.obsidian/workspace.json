@@ -28,17 +28,13 @@
             "id": "6bddb013ab9cf0f5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "bases",
               "state": {
-                "file": "Без названия 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Без названия.base",
+                "viewName": "Таблица"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Без названия 1"
+              "icon": "lucide-table",
+              "title": "Без названия"
             }
           }
         ],
@@ -207,6 +203,7 @@
   "active": "6bddb013ab9cf0f5",
   "lastOpenFiles": [
     "Без названия 1.canvas",
+    "Без названия.base",
     "Без названия.canvas",
     "Pasted image 20260220175153.png",
     "Pasted image 20260220175131.png",
