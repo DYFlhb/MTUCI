@@ -32,7 +32,7 @@ BoxStep=-1,-1
 BoxMirror=-1,-1
 Calc=-1,-1,-1,-1
 Clipboard=-1,-1,-1,-1
-CTProp=-1,-1
+CTProp=989,514
 Colors=-1,-1
 CompEdit=-1,-1,-1,-1
 CompEditInfo=-1,-1
@@ -55,8 +55,8 @@ FontColor=-1,-1
 FindModelParam=-1,-1
 G2DProp=956,442
 G3DProp=-1,-1
-GetAtt=875,240
-AttPLot=-1,-1,-1,-1
+GetAtt=1146,513
+AttPLot=0,513,593,1106
 Localize=-1,-1
 GotoPerf=-1,-1
 GotoXY=3198,816
@@ -180,7 +180,7 @@ RP_FOR_ISOURCE=0
 METHOD=TRAP
 
 [Preferences]
-Main Window Placement=2,3, -1,-1, -1,-1, 2553,548,4231,1548
+Main Window Placement=2,3, -1,-1, -1,-1, -7,12,1671,1012
 Att Width=630
 PathView=Full
 ;General
@@ -758,7 +758,7 @@ Search=Yes
 Favorites=Yes
 Model=Yes
 sizeHorz=200,200
-sizeVert=200,831
+sizeVert=200,1221
 sizeFloat=200,200
 BrowseSplitter=180
 SearchSplitter=180
@@ -778,7 +778,7 @@ Show=Yes
 ClearOnRun=Yes
 ClearOnEdit=Yes
 ShowHelp=Yes
-sizeHorz=1684,77
+sizeHorz=2564,77
 sizeVert=200,200
 sizeFloat=200,200
 
@@ -1727,14 +1727,15 @@ Front=C:\Users\danya\Downloads\circuit1.cir
 
 [Last Used Components]
 Max=10
-COMPONENT_1=Ground
+COMPONENT_1=Capacitor
 COMPONENT_2=Resistor
-COMPONENT_3=Sine Source
-COMPONENT_4=IofV
-COMPONENT_5=ISource
-COMPONENT_6=Animated SPDT Switch
-COMPONENT_7=Animated Meter
-COMPONENT_8=Battery
+COMPONENT_3=Ground
+COMPONENT_4=Sine Source
+COMPONENT_5=IofV
+COMPONENT_6=ISource
+COMPONENT_7=Animated SPDT Switch
+COMPONENT_8=Animated Meter
+COMPONENT_9=Battery
 
 [Calculator Defines]
 Text
@@ -1810,8 +1811,8 @@ Separate=False
 Graph Group=1
 
 [Tip]
-Show=Yes
-Index=6
+Show=No
+Index=7
 
 [AttSettings]
 V.Pulse.Btn.1="Typical"
