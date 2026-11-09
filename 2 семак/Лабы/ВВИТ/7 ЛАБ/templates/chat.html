@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Chat</title>
+    <style>
+        .system-message {
+            color: gray;
+            font-style: italic;
+            margin: 5px 0;
+        }
+        .user-message {
+            margin: 5px 0;
+        }
+        .private-message {
+            margin: 5px 0;
+            background-color: #e8f4f8;
+            border-left: 3px solid #0099ff;
+            padding-left: 10px;
+        }
+        .error-message {
+            color: red;
+            font-style: italic;
+            margin: 5px 0;
+        }
+        .message-user {
+            font-weight: bold;
+            color: #0066cc;
+        }
+        .message-text {
+            margin-left: 5px;
+        }
+        .message-time {
+            font-size: 0.8em;
+            color: #999;
+            margin-left: 10px;
+        }
+        .private-label {
+            color: #0099ff;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Чат на WebSockets</h1>
+    <div id="online-count" style="margin-bottom: 10px; font-weight: bold;"></div>
+    <div id="error-area" style="color: red; margin-bottom: 10px;"></div>
+    <input type="text" id="messageInput" autocomplete="off" maxlength="200" placeholder="Введите сообщение... /w username текст для привата"/>
+    <button onclick="sendMessage()">Отправить</button>
+    <div style="font-size: 0.8em; color: #666; margin-top: 5px;">Максимум 200 символов. Приватное сообщение: /w Bob привет</div>
+    <ul id="messages" style="list-style-type: none; padding: 0; max-height: 500px; overflow-y: auto;"></ul>
+    <script>
+        let username = prompt("Введите имя пользователя");
+
+        if (!username || username.trim() === "") {
+            alert("Имя пользователя не может быть пустым");
+            location.reload();
+        } else {
+            const ws = new WebSocket(`ws://localhost:8000/ws?username=${encodeURIComponent(username)}`);
+
+            ws.onmessage = function(event) {
+                const messages = document.getElementById("messages");
+                const message = document.createElement("li");
+                const data = JSON.parse(event.data);
+
+                if (data.type === "system") {
+                    message.className = "system-message";
+                    message.textContent = data.text;
+
+                    if (data.online !== undefined) {
+                        document.getElementById("online-count").textContent = `Online: ${data.online}`;
+                    }
+                } else if (data.type === "error") {
+                    message.className = "error-message";
+                    message.textContent = `${data.detail}`;
+
+                    const errorArea = document.getElementById("error-area");
+                    errorArea.textContent = data.detail;
+                    setTimeout(() => {
+                        errorArea.textContent = "";
+                    }, 3000);
+                } else if (data.type === "message") {
+                    message.className = "user-message";
+
+                    const time = new Date(data.ts).toLocaleTimeString();
+                    message.innerHTML = `
+                        <span class="message-user">${data.user}:</span>
+                        <span class="message-text">${data.text}</span>
+                        <span class="message-time">${time}</span>
+                    `;
+                } else if (data.type === "private") {
+                    message.className = "private-message";
+
+                    const time = new Date(data.ts).toLocaleTimeString();
+                    if (data.from === username) {
+                        message.innerHTML = `
+                            <span class="private-label">[PRIVATE to ${data.to}]:</span>
+                            <span class="message-text">${data.text}</span>
+                            <span class="message-time">${time}</span>
+                        `;
+                    } else {
+                        message.innerHTML = `
+                            <span class="private-label">[PRIVATE from ${data.from}]:</span>
+                            <span class="message-text">${data.text}</span>
+                            <span class="message-time">${time}</span>
+                        `;
+                    }
+                }
+
+                messages.appendChild(message);
+                messages.scrollTop = messages.scrollHeight;
+            };
+
+            ws.onclose = function(event) {
+                if (event.code === 1008) {
+                    alert("Имя пользователя не может быть пустым");
+                    location.reload();
+                }
+            };
+
+            function sendMessage() {
+                const input = document.getElementById("messageInput");
+                if (input.value.trim() !== "") {
+                    const msg = {
+                        type: "message",
+                        text: input.value
+                    };
+                    ws.send(JSON.stringify(msg));
+                    input.value = '';
+                }
+            }
+
+            window.sendMessage = sendMessage;
+
+            document.getElementById("messageInput").addEventListener("keypress", function(e) {
+                if (e.key === "Enter") {
+                    sendMessage();
+                }
+            });
+        }
+    </script>
+</body>
+</html>

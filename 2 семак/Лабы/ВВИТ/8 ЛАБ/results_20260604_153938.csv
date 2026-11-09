@@ -1,0 +1,5 @@
+URL,Status,Length,Attempts,Success,Error
+https://example.com,,,5,No,Connection error
+https://httpbin.org/get,,,5,No,Connection error
+https://www.python.org,,,5,No,Connection error
+https://badurl.test,,,5,No,Connection error
